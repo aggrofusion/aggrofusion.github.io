@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 html {
-    background-color: grey
+    background-color: rgb(101,101,101);
 }
+
+body {
+    color: white;
+    font-size: 22px;
+    width: 67%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    line-height: 1.8em;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    color: rgb(47, 47, 143);
+    font-family: "Montserrat";
+}
+
+div#EmpEdu img {
+    width: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div#EmpEdu p,h2 {
+    text-align: left;
+}
+
+/*Nav Bar Styling*/
+.topnav {
+    overflow: hidden;
+    background-color: #555;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Montserrat";
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
